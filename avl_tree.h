@@ -19,5 +19,7 @@ public:
 class AVLTree {
     static int get_height(const Node* node);
     static int get_balance(const Node* node);
+public:
+    static Node* left_rotation(Node* y);
 };
 #endif //AVL_TREE_AVL_TREE_H
